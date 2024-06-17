@@ -1,0 +1,18 @@
+name: MoonlightEvoke
+version: '${project.version}'
+main: me.evoke.moonlightevoke.MoonlightEvoke
+api-version: '1.20'
+
+commands:
+  cow:
+    description: "Spawn an explosive Cow"
+    usage: "/cow [baby]"
+    aliases: [cowcannon]
+    permission: moonlightevoke.command.cowcannon
+    permission-message: "You do not have permission to use this command"
+permissions:
+  moonlightevoke.command.cow:
+    default: false
+
+  moonlightevoke.cow.use:
+    default: false
